@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -12,6 +13,9 @@ body {
 }
 .text-primary {
   color: #fed136;
+}
+.text-white {
+  color: #ffffff;
 }
 p {
   font-size: 14px;
@@ -28,13 +32,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #462E4C;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #B4CECF;
 }
 h1,
 h2,
@@ -104,8 +108,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #462E4C;
+  border-color: #462E4C;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -119,8 +123,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #B4CECF;
+  border-color: #B4CECF;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -142,8 +146,8 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #271E41;
+  border-color: #271E41;
 }
 .btn-xl .badge {
   color: #fed136;
@@ -154,14 +158,14 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: #EF8F87;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #B4CECF;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -187,18 +191,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #B4CECF;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #462E4C;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #462E4C;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -221,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #03121F;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -316,7 +320,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: #B4CECF;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -630,6 +634,9 @@ footer ul.quicklinks {
 ul.social-buttons {
   margin-bottom: 0;
 }
+ul.social-buttons-footer {
+  margin-bottom: 0;
+}
 ul.social-buttons li a {
   display: block;
   background-color: #222222;
@@ -646,9 +653,29 @@ ul.social-buttons li a {
   text-align: center;
   padding-top: 17px;
 }
+ul.social-buttons-footer li a {
+  display: block;
+  background-color: #222222;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  font-size: 15px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+}
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
+  background-color: #B4CECF;
+}
+ul.social-buttons-footer li a:hover,
+ul.social-buttons-footer li a:focus,
+ul.social-buttons-footer li a:active {
   background-color: #B4CECF;
 }
 .btn:focus,
@@ -737,7 +764,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #B4CECF;
 }
 img::selection {
   background: transparent;
